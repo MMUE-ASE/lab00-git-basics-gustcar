@@ -54,7 +54,10 @@ void blink_n_times(unsigned int n, unsigned int delay_ms)
 {
     /* TODO (Ejercicio E): implement on branch feat/blink-n-times */
     (void)n;
+    /* set PB7 high */
+    /* wait delay_ms cycles */
     (void)delay_ms;
+    /* set PB7 low */
 }
 
 int main(void)
