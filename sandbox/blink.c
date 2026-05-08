@@ -37,7 +37,7 @@ void blink_init(void)
  */
 void blink_once(unsigned int delay_ms)
 {
-    /* TODO (Ejercicio B): implement on branch feat/blink-led */
+    /* (Ejercicio B): implement on branch feat/blink-led */
     /* set PB7 high */
     /* wait delay_ms cycles */
     (void)delay_ms;
@@ -52,9 +52,12 @@ void blink_once(unsigned int delay_ms)
  */
 void blink_n_times(unsigned int n, unsigned int delay_ms)
 {
-    /* TODO (Ejercicio E): implement on branch feat/blink-n-times */
+    /* (Ejercicio E): implement on branch feat/blink-n-times */
     (void)n;
+    /* set PB7 high */
+    /* wait delay_ms cycles */
     (void)delay_ms;
+    /* set PB7 low */
 }
 
 int main(void)
